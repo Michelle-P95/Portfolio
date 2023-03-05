@@ -7,8 +7,8 @@ npm run build
 cd dist
 
 git init
-git add .
-git commit -m 'New Deployment'
-git push -f https://github.com/Michelle-P95/Portfolio.git master:gh-pages
+git add -A
+git commit -m 'deploy'
+git push -f git@github.com:Michelle-P95/Portfolio.git master:gh-pages
 
 cd -
