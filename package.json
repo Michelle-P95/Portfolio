@@ -1,0 +1,54 @@
+{
+  "name": "shane",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "deploy": "sh deploy.sh"
+  },
+  "dependencies": {
+    "@mlqt/vue-back-top": "^1.0.8",
+    "core-js": "^3.6.5",
+    "hooper": "^0.3.4",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.1.1",
+    "vee-validate": "^3.4.7",
+    "vue": "^2.6.11",
+    "vue-cool-lightbox": "^2.7.4",
+    "vue-particles": "^1.0.9",
+    "vue-router": "^3.5.1",
+    "vue-scroll-reveal": "^1.0.11",
+    "vue-scrollactive": "^0.9.3",
+    "vuejs-scroll-fixed-header": "^1.0.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.19",
+    "@vue/cli-plugin-eslint": "^4.5.19",
+    "@vue/cli-service": "^4.5.19",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

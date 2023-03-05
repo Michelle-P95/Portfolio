@@ -1,0 +1,90 @@
+// modal css
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+.modal-mask {
+  position: fixed;
+  z-index: 2000;
+  top: 0%;
+  width: 100%;
+  height: 110%;
+  background-color: rgba(0, 0, 0, 0.90);
+  transition: opacity 0.2s ease;
+  //overflow: hidden;
+  // overflow-y: auto;
+}
+.modal-dialog {
+  //max-width: 1090px;
+  margin: 0px 0;
+  padding: 0 0%;
+}
+
+.modal-dialog-centered {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 100%;
+  @media screen and (max-width: 1100px) {
+    min-height: 100%;
+  }
+}
+.modal-dialog {
+  position: relative;
+  width: 90%;
+  pointer-events: none;
+}
+.modal-content {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  outline: 0;
+  margin-left: 10%;
+  box-shadow: none;
+  padding: 7rem 10rem; // top left
+  height: 90vh; // höhe von karte das unten & oben rand kommt
+  overflow-y: auto;
+  @media screen and(max-width:991px) {
+    padding: 50px 50px;
+  }
+  @media screen and(max-width:575px) {
+    padding: 50px 50px;
+    height: 470px;
+  }
+}
+button.modal-close {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #ddd;
+  padding: 15px;
+  border: none;
+  font-size: 10px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.close .svg {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  width: 45px;
+  height: 45px;
+  filter: invert(1);
+  cursor: pointer;
+}
+
+.modal-content.calltoactions-content {
+  padding-bottom: 0;
+}
