@@ -38,12 +38,10 @@
 <!-- style="color:rgb(115, 162,43);  -->
        
 </p>
-<br>
-          
-
+<br>       
       </div>
       <div class="shane_tm_button" >
-        <a href="../../assets/img/_/2023_CV_Poetsch_Michelle.pdf" download> Download CV </a>
+        <a href="2023_CV_Poetsch_Michelle.pdf" download> Download CV </a>
       </div>
     </div>
     <!-- End right -->

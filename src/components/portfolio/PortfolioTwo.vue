@@ -158,7 +158,7 @@
 
               
             </div> 
-            <a href='https://github.com/Michelle-P95/XR-Handtracking'>{{ image.xr }}</a>
+            <button href='https://github.com/Michelle-P95/XR-Handtracking'>{{ image.xr }}</button>
             <button href="" style="visibility: hidden;"></button>
           </li>
           <!-- End li -->
@@ -502,17 +502,17 @@
                                 Focusgroup 
                               </h6><br>
                               <p>
-                                TEXT
+                                Conducting a focus group allowed me to gather insights on the target audience's behavior and attitudes towards environmental impact. I was able to identify pain points and opportunities to motivate individuals to change their behavior using the augmented reality app.
                               </p>
                               <br>                
-
+   <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
 
   <br>
                                 <h6>
                                   Empathy Map
                                 </h6><br>
                                 <p>
-                                  To better understand the emotions, thoughts, and behaviors of our users, I created an empathy map. 
+                                  By creating an empathy map, I was able to understand the emotions, thoughts, and behaviors of the target audience. This helped me to design an app that resonates with the user's values and motivates them to take positive actions towards the environment.
                                 </p>
                                 <br>  
 
@@ -520,38 +520,40 @@
               
                 <img src="../../assets/img/_/ux/virtual Garden - Empathy Map.png" style="display: block; margin: 0 auto; width: 90%;">
                 
-              <br><br>
+              <br>
+               <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
+              <br>
                 <h6>
                 Storyboard
                 </h6><br>
               <p>
-              As next Step i made a User Story and created a Storyboard to visualize the Steps how a User experiences the Product i am about to create.
+            Storyboarding allowed me to visualize the user's journey with the app, identifying potential issues and opportunities to improve the user experience. This helped me to create a seamless and engaging experience for the user.
               </p>
               <br> 
 
                 <br>
                   <img src="../../assets/img/_/ux/virtual Garden - Storyboard.png" style="display: block; margin: 0 auto; width: 80%;">
                 <br>
-
+   <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
                 <br>
                   <h6>
                   User Flow
                   </h6><br>
                 <p>
-                 To design the navigation of the app the user can go the following user flow was created.
+                 Creating a user flow helped me to understand the steps that the user needs to take to achieve their goals using the app. By mapping out the user flow, I was able to identify potential roadblocks and design solutions that simplify the user journey. This increases the likelihood that users will take the desired actions and reduce their environmental impact. 
                 </p>
                 <br> 
-
+ 
                 <br>
                 <img src="../../assets/img/_/ux/virtual Garden - User Flow.png" style="display: block; margin: 0 auto; width: 100%;">
                 <br>
-
+    <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
                 <br>
                     <h6>
                     Paperprototyp
                     </h6><br>
                   <p>
-                    With ll my analysed insights i designed a paperprototype. See below for some impressions.<br>
+                    With my analysed insights i designed a paperprototype. See below for some impressions.<br>
                        First you see a Garden which will be placed via Augmented Reality in your Roome. It has some elements such as Trees and a Sea. There is also a little House which is markes as Home.
                   </p>
                   <br> 
@@ -586,47 +588,117 @@
                 <img src="../../assets/img/_/paperprototype/logbook.png" height="300 vh" style="margin-right: 30px;">  
                 <img src="../../assets/img/_/paperprototype/add_item.png" height="300 vh">
 <br><br>
+   <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
 
+   
                      <br>
                       <h6>
-                      verbesserter Prototyp
+                      Evaluation
                       </h6><br>
                     <p>
-                      TEXT
-                    </p>
+                      Through testing a paper prototype with 5 individuals, I was able to identify usability issues and make improvements to the design. Feedback was used to refine the design, ensuring that the augmented reality app is easy to use and visually appealing.
+                    The traffic light colors were quite positive, so the color yellow, which signifies "attention," was added to highlight important information, such as tips for capturing action shots for the user.
+                    </p>s
                     <br>                    
 <br>
                           <img src="../../assets/img/_/paperprototype/new_changes.png" height="300 vh">
 
                         <br><br>
                             <p>
-                            Through missunderstandig was logbook changed to "Tagebuch" which is Diary. And Garden after while testing the questions "which Garden?" is changed to "My Garden".
+                            Due to a misunderstanding, the term 'Logbook' was changed to 'Tagebuch,' which means 'Diary' in German. Additionally, during testing, some users asked 'Which garden?' in response to certain questions. To address this, we added the possessive adjective 'My' to create 'My Garden,' emphasizing that the environmental impact is the result of the user's behavior.
                             </p>
                         <br>
                           <img src="../../assets/img/_/paperprototype/new_menu.png" height="300 vh">
                           <br>
-                           <br>  <br>
+                           <br> 
+      <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br>  <br>
                         <h6>
                         Interaction Prototype
                         </h6><br>
                       <p>
-                        text
+                         Based on the feedback from the paper prototype testing, an interactive prototype was developed using Unity. This prototype allowed users to experience the augmented reality app in a more realistic and immersive way, and provided valuable insights into how users interact with the app.
+          
                       </p>
+
+                      <p>Following you can see the UI Menus. Left the Startmenu, second the Logbook and right two Screens when the user makes an Input with a Dropdown Menu and gets a user Feedback when it was added successful.  </p>
                       <br> 
-                          
+
+                      <img src="../../assets/img/_/paperprototype/final/startmenu.png" height="300 vh" style="margin-right: 30px;">
+                      <img src="../../assets/img/_/paperprototype/final/logbuch.png" height="300 vh" style="margin-right: 30px;">    
+                      <img src="../../assets/img/_/paperprototype/final/dropdown.png" height="300 vh" style="margin-right: 30px;">  
+                      <img src="../../assets/img/_/paperprototype/final/added.png" height="300 vh" style="margin-right: 30px;">  
+                      
+
+                      <br><br>
+                      
+                      <p>
+                        The Button on the Top brings to the 3D virtual Garden which will be placed via AR in the real physics World of the User via Camera. You can see the Garden below.
+                      </p>
+
+                      <br>
+                      <img src="../../assets/img/_/paperprototype/final/Garden - good condition.png" height="300 vh" style="margin-right: 30px;">  
+
+                      <br><br>
+                      
+                        <p>
+                         Positive and Negative Changes are implemented like the design of the paperprototype. 
+                        </p>
+
+
+                      <img src="../../assets/img/_/paperprototype/final/Best condition Tree.png" height="300 vh" style="margin-right: 30px;">  
+                      <img src="../../assets/img/_/paperprototype/final/changed negativ.png" height="300 vh" style="margin-right: 30px;">  
+
+                      <br><br>
+                      
+                          <p>
+                          Clicking on the Yellow Sign brings the User to the UI below. Here are with green Speachbubbles are notet down which behaviour made what positive outcome. The red Speachbubble says which behaviour made a negative impact on the Enviroemnt and a Tipp how to change this behaviour. On the Right you can see the Garden in his worst Condition.
+                          </p>
+              
+                      <img src="../../assets/img/_/paperprototype/final/UI - Info.png" height="300 vh" style="margin-right: 30px;"> 
+                       <img src="../../assets/img/_/paperprototype/final/Garden - bad condition.png" height="300 vh" style="margin-right: 30px;">   
+
+                      
+                      <br>
+
+     <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br>                       
 
                       <br>  <br>
                           <h6>
                           Heuristic Evaluation
                           </h6><br>
                         <p>
-                          To Test the Prototype 5 different People tested it and answered 
+                           A heuristic evaluation was conducted with 5 different individuals to identify usability issues and areas for improvement in the app. This evaluation helped to ensure that the app meets industry standards for usability and provided valuable insights into how to optimize the user experience. The Changes where mainly about the placing via AR in the World for a better imersive Experience.
                         </p>
                         <br> 
 
 
     <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
-                           ----> See here the <a href="https://github.com/Michelle-P95/AR-virtual-Garden">Sourcecode on Github</a> of the final developed Prototype<br>            
+
+     <br>  <br>
+                            <h6>
+                            Conclusion
+                            </h6><br>
+                          <p>
+                             The development of this augmented reality app aimed at promoting positive environmental behavior has been a great success. Through the use of various UX design methods, it was able to create an app that is intuitive, engaging, and effective at motivating behavior change. The addition of features such as "My Garden" and the use of clear and concise language in the user interface has further enhanced the user experience.
+                          </p>
+                          <br> 
+
+
+      <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
+
+
+
+
+    <br>  <br>
+                            <h6>
+                            Final Sources
+                            </h6><br>
+                          <p>
+                             An full Impression of the Final Prototype you can see on my AR Tab on my Portfolio. 
+                          </p>
+                          <br> 
+                           ----> See here the <a href="https://github.com/Michelle-P95/AR-virtual-Garden">Sourcecode on Github</a> of the final developed Prototype<br> 
+                      
                   
 
 
@@ -1100,7 +1172,7 @@ export default {
           thumb: require("../../assets/img/_/AR/HandtrackingXR.png"),
           portfolioName: "Handtracking (Unity)",
           portfolioType: "XR",
-          xr: "--> Project in Gitlab",
+          xr: "Source code",
         },
           {
           src: require("../../assets/img/_/AR/bubble_hat.mp4"),
