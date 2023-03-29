@@ -310,22 +310,23 @@
  <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
                     
 
-                      <br>
+                      
                       <br>
                         <h6>
                           Focusgruppe 
                         </h6><br>
                         <p>
-                          Text 
+                          Conducting a focus group allowed me to gather insights from potential users about their attitudes towards healthy eating and the challenges they face in maintaining a healthy diet in the long run. This information was used to inform the design of the app, ensuring that it meets the needs and expectations of its target audience. 
                         </p>
                         <br>
-                  
+  <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br>                  
+                      
                         <br>
                           <h6>
                             User Story Map 
                           </h6><br>
                           <p>
-                            Text 
+                            Creating a user story map helped to identify the various user journeys and scenarios that the app needed to support, allowing me to design a seamless and intuitive user experience. This methodology allowed me to prioritize the features and functionality of the app based on user needs and ensure that the app supports long-term healthy eating habits. 
                           </p>
                           <br>
                   
@@ -335,43 +336,56 @@
                       <img src="../../assets/img/_/ux/Food4me - User Story Map.png" style="display: block; margin: 0 auto; width: 100%;">
                          <br>
                       <br>
-                            <h6>
+ <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
+                            <br><h6>
                               Use Case Diagram 
                             </h6><br>
                             <p>
-                              Text 
+                              Developing a use case diagram helped to visualize how the app would be used by different types of users, and the various interactions between them and the app. This diagram provided a clear overview of the app's functionality, allowing me to identify potential usability issues and design solutions that simplify the user experience. 
                             </p>
                             <br>
 
                          <img src="../../assets/img/_/ux/Food4me - Use Case Diagram.png" style="display: block; margin: 0 auto; width: 100%;">
    
                     <br>
-                            <h6>
-                          Beide Prototypen
+                     <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
+                            <br><h6>
+                          Paper Prototyp
                             </h6><br>
                             <p>
-                              Text 
+                              Creating two paper prototypes with a variable difference allowed me to compare and evaluate two different design concepts quickly and efficiently. _____________________________________________
+                            
                             </p>
                             <br>
+                           <img src="../../assets/img/_/paperprototype/negative_change_info.png" height="300 vh"> <br><br> 
+                           <img src="../../assets/img/_/paperprototype/negative_change_info.png" height="300 vh"> <br><br> 
+                           
 
+
+                          
+                            
+        <br>
+                       <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
                         <br>
                             <h6>
                              AB Testing
                             </h6><br>
                             <p>
-                              Text 
+                              Conducting AB testing of paper prototypes helped to identify usability issues and refine the design of the app. This methodology allowed me to quickly test and iterate on different design concepts, ensuring that the final product is easy to use and visually appealing. 
                             </p>
-                            <br>
-
+                            
+        <br>
+                       <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
                         <br>
                               <h6>
                                Nasa tlx
                               </h6><br>
                               <p>
-                                Text 
+                                Using the NASA-TLX method helped to evaluate the overall cognitive load and mental effort required to use the app. This methodology allowed me to identify areas where the app may be overwhelming or confusing to users, and design solutions to reduce cognitive load and improve the overall user experience. By using the NASA-TLX method, I was able to ensure that the app is not only visually appealing and easy to use, but also efficient and effective in promoting healthy eating habits in the long run.
                               </p>
-                              <br>
-
+                              
+        <br>
+                       <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
                         <br>
                               <h6>
                              verbesserter prottoype
@@ -380,7 +394,8 @@
                                 Text 
                               </p>
                               <br>
-
+        <br>
+                       <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
                         <br>
                               <h6>
                                Unity prototype
@@ -389,25 +404,28 @@
                                 Text 
                               </p>
                               <br>
-
+        <br>
+                       <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
                         <br>
                               <h6>
                                usability Testing
                               </h6><br>
                               <p>
-                                Text 
+                                Conducting usability testing in a real-world setting, such as a supermarket, helped to identify how users interact with the app in a natural environment. This information was used to refine the design of the app, ensuring that it meets the needs of users in real-life scenarios. 
                               </p>
                               <br>
-
+        <br>
+                       <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
                         <br>
                               <h6>
                             Attrakdiff
                               </h6><br>
                               <p>
-                                Text 
+                                Using the Attrakdiff method helped to evaluate the overall user experience of the app, including its usability, aesthetics, and emotional appeal. This methodology allowed me to identify areas where the app excels and areas for improvement, ensuring that the final product is both visually appealing and effective in encouraging long-term healthy eating habits. 
                               </p>
                               <br>
-
+        <br>
+                       <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
                         <br>
                               <h6>
                             retro / Conclusion
@@ -416,6 +434,8 @@
                                 Text 
                               </p>
                               <br>
+                                    <br>
+                       <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
                         <br>
                         <p>
                           Have a Look at <br>
