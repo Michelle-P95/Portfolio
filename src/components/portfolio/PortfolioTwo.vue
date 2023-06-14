@@ -149,18 +149,18 @@
           <li v-for="(image, imageIndex) in arVrItems" :key="imageIndex">
             <div class="inner" @click="index = imageIndex">
               <div class="entry tokyo_tm_portfolio_animation_wrap">
-                <img class="image" style="" :src="image.thumb" alt="Portfolio" />
-             
+                 <img class="image" :src="image.thumb" alt="Portfolio" />
+               
               </div>
-              <!-- End
+              <!-- End           <video @loadedmetadata="playVideo" style="height:300px;" :src="image.src" muted loop></video>
               
               <h3>{{ image.portfolioName }}</h3>
               <span>{{ image.portfolioType }}</span>
                 
                 .entry -->
-              <div class="mobile_title">
-                     <img src="../../assets/img/_/play.png" alt="Play Icon">
-              </div>
+               <div class="mobile_title">
+                       <img src="../../assets/img/_/play.png" alt="Play Icon">
+                </div>
 
               
             </div> 
@@ -1185,7 +1185,7 @@ export default {
         {
           src: require("../../assets/img/_/AR/bubble_hat.mp4"),
           thumb: require("../../assets/img/_/AR/Food4Me.png"),
-          portfolioName: "Food4Me \n \n mobile App with Unity",
+          portfolioName: "AR App",
           portfolioType: "AR",
           play: require("../../assets/img/_/play.png"),
         },
@@ -1372,6 +1372,9 @@ export default {
       this.isActive6 = false;
       this.isVisible6 = false;
     },
+    playVideo(event) {
+      event.target.play();
+    }
   }
 };
 </script>

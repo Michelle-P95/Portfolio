@@ -41,3 +41,14 @@ Noch TODO:
 das erscheinen des titels pro project
 .mobile_title {
 transform: translateY(0); }
+
+//****\*\*\*\*****\_\_****\*\*\*\***** um selbst abspielende videos als posts
+
+INFO: viele browser erlauben nicht automatisches abspielen von videos wenn NICHT gemuted
+
+<video @loadedmetadata="playVideo" style="height:300px;" :src="image.src" muted loop></video>
+
+// bei methods: {
+playVideo(event) {
+event.target.play();
+}
