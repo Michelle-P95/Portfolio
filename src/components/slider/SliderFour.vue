@@ -71,9 +71,9 @@ export default {
       typeValue: "",
       typeStatus: false,
       typeArray: ["UX Designer.", "AR/XR Designer.", "3D/CAD Designer.", "Frontend Developer.", "Creator"],
-      typingSpeed: 200,
+      typingSpeed: 300,
       erasingSpeed: 100,
-      newTextDelay: 2000,
+      newTextDelay: 1000,
       typeArrayIndex: 0,
       charIndex: 0,
     };

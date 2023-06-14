@@ -41,7 +41,7 @@
 <br>       
       </div>
       <div class="shane_tm_button" >
-        <a href="2023_CV_Poetsch_Michelle.pdf" download> Download CV </a>
+        <a href="/CV_Poetsch_Michelle.pdf" download> Download CV </a>
       </div>
     </div>
     <!-- End right -->
