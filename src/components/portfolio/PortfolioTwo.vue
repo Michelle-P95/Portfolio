@@ -1183,6 +1183,7 @@ export default {
       arVrItems: [
         {
           src: require("../../assets/img/_/AR/bubble_hat.mp4"),
+          autoplay: true,
           thumb: require("../../assets/img/_/AR/Food4Me.png"),
           portfolioName: "AR App",
           portfolioType: "AR",
@@ -1190,12 +1191,14 @@ export default {
         },
         {
           src: require("../../assets/img/_/AR/bubble_hat.mp4"),
+          autoplay: true,
           thumb: require("../../assets/img/_/AR/virtualGarden.png"),
           portfolioName: "mobile App (Unity)",
           portfolioType: "AR",
         },
         {
           src: require("../../assets/img/_/AR/Handtracking.mp4"),
+          autoplay: true,
           thumb: require("../../assets/img/_/AR/HandtrackingXR.png"),
           portfolioName: "Handtracking (Unity)",
           portfolioType: "XR",
@@ -1203,12 +1206,14 @@ export default {
         },
           {
           src: require("../../assets/img/_/AR/bubble_hat.mp4"),
+          autoplay: true,
           thumb: require("../../assets/img/_/AR/ARestaurant.png"),
           portfolioName: "mobile App (Unity)",
           portfolioType: "AR",
         },
         {
           src: require("../../assets/img/_/AR/bubble_hat.mp4"),
+          autoplay: true,
           thumb: require("../../assets/img/_/AR/milka3.png"),
           portfolioName: "(Meta Spark Studio)",
           portfolioType: "AR",
@@ -1216,30 +1221,35 @@ export default {
         
         {
           src: require("../../assets/img/_/AR/video_final_burger.mp4"),
+          autoplay: true,
           thumb: require("../../assets/img/_/AR/burger.png"),
           portfolioName: "(Lens Studio)",
           portfolioType: "AR",
         },
         {
           src: require("../../assets/img/_/AR/preview.mp4"),
+          autoplay: true,
           thumb: require("../../assets/img/_/AR/neon-pink.png"),
           portfolioName: "(Lens Studio)",
           portfolioType: "AR",
         },
         {
           src: require("../../assets/img/_/AR/bubble_hat.mp4"),
+          autoplay: true,
           thumb: require("../../assets/img/_/AR/bubble_hat.png"),
           portfolioName: "(Lens Studio)",
           portfolioType: "AR",
         },
         {
           src: require("../../assets/img/_/AR/YouVSWild.mp4"),
+          autoplay: true,
           thumb: require("../../assets/img/_/AR/YouvsWild.png"),
           portfolioName: "(Lens Studio)",
           portfolioType: "AR",
         },
         {
           src: require("../../assets/img/_/AR/video_conch.mp4"),
+          autoplay: true,
           thumb: require("../../assets/img/_/AR/magic_conch.png"),
           portfolioName: "(Lens Studio)",
           portfolioType: "AR",
@@ -1287,12 +1297,14 @@ export default {
       dreiDItems: [
         {
           src: require("../../assets/img/_/3D/video-3d-game.mp4"),
+            autoplay: true,
           thumb: require("../../assets/img/_/3D/mockup_3D-Game.png"),
           portfolioName: "(Unity)",
           portfolioType: "3D Game",
         }, 
         {
           src: require("../../assets/img/_/3D/video-3d-game.mp4"),
+            autoplay: true,
           thumb: require("../../assets/img/_/3D/2D-Game.png"),
           portfolioName: "(Unity)",
           portfolioType: "2D Game",
@@ -1372,7 +1384,7 @@ export default {
       this.isVisible6 = false;
     },
     playVideo(event) {
-      event.target.play();
+       event.target.play();
     }
   }
 };
