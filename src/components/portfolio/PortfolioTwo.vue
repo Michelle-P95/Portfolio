@@ -109,9 +109,8 @@
               </div>
               <!-- End .entry -->
               <div class="mobile_title">
-                <h3>ARestaurant</h3>
-                <span>UX</span>
-              </div>
+                         <img src="../../assets/img/_/open.png" alt="Play Icon">
+                  </div>
             </div>
           </li>
 
