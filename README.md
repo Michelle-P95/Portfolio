@@ -35,3 +35,9 @@ Noch TODO:
 
 // about & slider ==> nur die AbooutFOur.vue & SliderFour.vue
 // die anderen sind für die anderen templates
+
+---
+
+das erscheinen des titels pro project
+.mobile_title {
+transform: translateY(0); }

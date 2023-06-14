@@ -70,10 +70,10 @@ export default {
       sliderHero: require("../../assets/img/_/pflanzen.jpg"),
       typeValue: "",
       typeStatus: false,
-      typeArray: ["UX Designer.", "AR/XR Designer.", "3D/CAD Designer.", "Frontend Developer.", "Creator"],
-      typingSpeed: 300,
+      typeArray: ["Designer | Developer.", "UX Designer.", "AR/XR Designer.", "APP Developer.", "Frontend Developer.", "Product Designer.", "3D/CAD Designer."],
+      typingSpeed: 130,
       erasingSpeed: 100,
-      newTextDelay: 1000,
+      newTextDelay: 1100,
       typeArrayIndex: 0,
       charIndex: 0,
     };

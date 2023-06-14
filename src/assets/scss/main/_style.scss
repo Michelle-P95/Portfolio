@@ -1034,11 +1034,12 @@ body.loaded .overlay_effect:after {
   overflow: hidden;
   cursor: pointer;
   &:hover {
-    /* img {
-      transform: scale(1.1);
-    } */
+    img {
+      transform: scale(1.05);
+    } 
     .mobile_title {
-      transform: translateY(0);
+      transform: translateX(0); // HIER das angezeigt wird
+      transform:scale(0.5);
     }
   }
 }
@@ -1112,7 +1113,7 @@ body.loaded .overlay_effect:after {
   height: auto;
   clear: both;
   float: left;
-  background: rgba(255, 255, 255, 0.6);
+  //background: rgba(255, 255, 255, 0.6);
   position: absolute;
   z-index: 2;
   bottom: 0;
@@ -3334,3 +3335,32 @@ body.intro .loader_line:after {
     }
   }
 }
+
+// ------------------------ MY CUSTOM STYLE
+
+.custom-button-green {
+  background-color: green;
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  /* horizontal zentrieren */
+  align-items: center;
+  /* vertikal zentrieren */
+  height: 100vh;
+  /* Höhe des Containers anpassen */
+}
+
+.custom-post-title {
+  font-size: 18px; // Größe des Textes anpassen
+  font-weight: bold; // Fetter Text
+  text-decoration: underline; // Unterstrichen
+  text-align: center; // Zentrierte Ausrichtung
+  color: #000; // Farbe des Textes anpassen
+}
+
+.custom-post-details {
+  color:#000;
+}
+

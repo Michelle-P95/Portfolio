@@ -13,6 +13,8 @@
           </div>
         </div>
       </div>
+
+      <div style="color: limegreen;"><i>click on any image to see a video presentation</i></div>
       <!-- End shane_tm_title -->
       <div class="portfolio_filter">
         <ul>
@@ -63,7 +65,7 @@
 <!-- ___________________________ posts UX projects ______________________________-->
           <li>
             <div class="inner" @click="showModal1">
-              <div class="entry shane_tm_portfolio_animation_wrap">
+              <div class="">
                 <img class="image" src="../../assets/img/_/AR/Food4Me.png" alt="Portfolio" />
               </div>
               <!-- End .entry -->
@@ -147,21 +149,26 @@
           <li v-for="(image, imageIndex) in arVrItems" :key="imageIndex">
             <div class="inner" @click="index = imageIndex">
               <div class="entry tokyo_tm_portfolio_animation_wrap">
-                <img class="image" :src="image.thumb" alt="Portfolio" />
+                <img class="image" style="" :src="image.thumb" alt="Portfolio" />
              
               </div>
-              <!-- End .entry -->
+              <!-- End
+              
+              <h3>{{ image.portfolioName }}</h3>
+              <span>{{ image.portfolioType }}</span>
+                
+                .entry -->
               <div class="mobile_title">
-                <h3>{{ image.portfolioName }}</h3>
-                <span>{{ image.portfolioType }}</span>
+                     <img src="../../assets/img/_/play.png" alt="Play Icon">
               </div>
 
               
             </div> 
-            <button href='https://github.com/Michelle-P95/XR-Handtracking'>{{ image.xr }}</button>
+            <div v-if="image.portfolioName" class="custom-post-title"> {{ image.portfolioName }}</div>
+            <button v-if="image.xr" class="custom-button-green" href='https://github.com/Michelle-P95/XR-Handtracking'>{{ image.xr }}</button>
             <button href="" style="visibility: hidden;"></button>
           </li>
-          <!-- End li -->
+          <!-- btn-outline dreht um?- -->
         </ul>
         <!-- End .portfolio_list -->
       </div>
@@ -1178,8 +1185,9 @@ export default {
         {
           src: require("../../assets/img/_/AR/bubble_hat.mp4"),
           thumb: require("../../assets/img/_/AR/Food4Me.png"),
-          portfolioName: "mobile App (Unity)",
+          portfolioName: "Food4Me \n \n mobile App with Unity",
           portfolioType: "AR",
+          play: require("../../assets/img/_/play.png"),
         },
         {
           src: require("../../assets/img/_/AR/bubble_hat.mp4"),
