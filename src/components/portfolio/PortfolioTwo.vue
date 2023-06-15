@@ -14,7 +14,7 @@
         </div>
       </div>
 
-      <div style="color: limegreen;"><i>click on any image to see a video presentation</i></div>
+      <div style="color: orange;"><i>click on any image to see a video presentation</i></div>
       <!-- End shane_tm_title -->
       <div class="portfolio_filter">
         <ul>
@@ -165,6 +165,7 @@
             </div> 
             <div v-if="image.portfolioName" class="custom-post-title"> {{ image.portfolioName }}</div>
             <div style="color: black; text-align: center; display: flex; justify-content: center; align-items: center;" v-if="image.details"> {{ image.details }}</div>
+            <div style="color: orange; font-weight: bold; text-align: center; display: flex; justify-content: center; align-items: center;" v-if="image.additional"> {{ image.additional }}</div>
 
             <div style="text-align: center; display: flex; justify-content: center; align-items: center; margin-top: 25px;">
             <div v-if="image.buttn1" class="shane_tm_button">
@@ -1220,7 +1221,7 @@ export default {
           thumb: require("../../assets/img/_/AR/HandtrackingXR.png"),
           portfolioName: "XR / VR - Handtracking",
           //portfolioType: "XR",
-           details: "made in Unity3D with Leapmotion, SteamVR",
+           details: "made in Unity3D with Leapmotion, SteamVR.",
           buttn1: "",
           buttn1url: "",
           buttn2: "",
@@ -1249,12 +1250,13 @@ export default {
           portfolioName: "AR - Object Tracking",
            details: "made in Meta Spark Studio. can be used in Instagram.",
         },
-        {
-          src: require("../../assets/img/_/AR/preview.mp4"),
+          {
+          src: require("../../assets/img/_/AR/video_conch.mp4"),
           autoplay: true,
-          thumb: require("../../assets/img/_/AR/neon-pink.png"),
-          portfolioName: "AR - Glitch Art",
-          details: "made in Lens Studio. experimental Glitch Art Filter.",
+          thumb: require("../../assets/img/_/AR/magic_conch.png"),
+          portfolioName: "AR - Face Tracking",
+          details: "made in Lens Studio. Randomizer and triggers with Touch.",
+          additional: "used over 700k times in Snapchat.",
         },
         {
           src: require("../../assets/img/_/AR/video_final_burger.mp4"),
@@ -1262,7 +1264,7 @@ export default {
           thumb: require("../../assets/img/_/AR/burger.png"),
           portfolioName: "AR - Face Tracking",
            details: "made in Lens Studio. triggers with a kiss mouth.",
-          buttn: "",
+               additional: "used over 400k times in Snapchat.",
         },
         {
           src: require("../../assets/img/_/AR/bubble_hat.mp4"),
@@ -1270,24 +1272,19 @@ export default {
           thumb: require("../../assets/img/_/AR/bubble_hat.png"),
               portfolioName: "AR - Face Tracking",
                  details: "made in Lens Studio. triggers with open Mouth.",
-          buttn: "",
+                 additional: "used over 200k times in Snapchat.",
         },
+         
         {
           src: require("../../assets/img/_/AR/YouVSWild.mp4"),
           autoplay: true,
           thumb: require("../../assets/img/_/AR/YouvsWild.png"),
               portfolioName: "AR - Face Tracking",
-                  details: "made in Lens Studio. triggers with open Mouth Animations, Sounds and more.",
-          buttn: "",
+                  details: "made in Lens Studio with visual Scripting. triggers with 'open Mouth' Animations, Sounds and more.",
+    
+          
         },
-        {
-          src: require("../../assets/img/_/AR/video_conch.mp4"),
-          autoplay: true,
-          thumb: require("../../assets/img/_/AR/magic_conch.png"),
-               portfolioName: "AR - Face Tracking",
-                 details: "made in Lens Studio. Randomizer and triggers with Touch.",
-          buttn: "",
-        }
+      
         
       
       ],
@@ -1299,7 +1296,7 @@ export default {
           portfolioName: "Graphic Design",
           //portfolioType: "Design",
           details: "made with Illustrator."
-        },  
+        },
         {
           src: require("../../assets/img/_/Design/UX - Grafik - JobsToBeDone.jpg"),
           thumb: require("../../assets/img/_/Design/UX - Grafik - JobsToBeDone.png"),
@@ -1326,6 +1323,13 @@ export default {
           thumb: require("../../assets/img/_/Design/UX - Grafik - UXProcess.png"),
           portfolioName: "Illustration",
           details: "about the UX-Process.",
+        },
+         {
+          src: require("../../assets/img/_/AR/preview.mp4"),
+          autoplay: true,
+          thumb: require("../../assets/img/_/AR/neon-pink.png"),
+          portfolioName: "Glitch Art Filter",
+          details: "made in Lens Studio. can be used in Snapchat.",
         },
         
       ],
