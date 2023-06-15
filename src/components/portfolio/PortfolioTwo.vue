@@ -166,7 +166,15 @@
             <div v-if="image.portfolioName" class="custom-post-title"> {{ image.portfolioName }}</div>
             <div style="color: black; text-align: center; display: flex; justify-content: center; align-items: center;" v-if="image.details"> {{ image.details }}</div>
 
-            <button v-if="image.buttn" class="custom-button-green" href='https://github.com/Michelle-P95/XR-Handtracking'>{{ image.buttn }}</button>
+            <div style="text-align: center; display: flex; justify-content: center; align-items: center; margin-top: 25px;">
+            <div v-if="image.buttn1" class="shane_tm_button">
+              <a :href=image.buttn1url >{{ image.buttn1 }}</a></div>
+            <div v-if="image.buttn2" class="shane_tm_button">
+              <a :href=image.buttn2url >{{ image.buttn2 }}</a></div>
+            <div v-if="image.buttn3" class="shane_tm_button">
+              <a :href=image.buttn3url >{{ image.buttn3 }}</a></div>
+            </div>
+
             <button href="" style="visibility: hidden;"></button>
           </li>
           <!-- btn-outline dreht um?- -->
@@ -1191,15 +1199,25 @@ export default {
           //portfolioType: "AR",
           play: require("../../assets/img/_/play.png"),
           details: "made with User-Centered-Design in Unity3D.",
-          buttn: "",
+          buttn1: "",
+          buttn1url: "https://gitlab.com/Michelle-P95/food4me/-/tree/master/Assets/Scripts",
+          buttn2: "",
+          buttn2url: "https://miro.com/app/board/uXjVO84jJ7A=/?share_link_id=711999834215",
+          buttn3: "",
+          buttn3url: "https://docs.google.com/document/d/1mUVoPpCGsO9plmABnNau5JqEvXcva0iUBgEd1U8KJqI/edit?usp=sharing",
         },
         {
           src: require("../../assets/img/_/AR/bubble_hat.mp4"),
           autoplay: true,
           thumb: require("../../assets/img/_/AR/virtualGarden.png"),
           portfolioName: "AR App - virtual Garden",
-          details: "made with User-Centered-Design in Unity3D.",
-          buttn: "",
+          details: "made with User-Centered-Design in Unity3D with Houdini.",
+          buttn1: "",
+          buttn1url: "https://github.com/Michelle-P95/AR-virtual-Garden",
+          buttn2: "",
+          buttn2url: "https://docs.google.com/presentation/d/1SL2Gy09P8xkqmmcojsxeu_8KxlBxlH3Fz21RGC8swIY/edit?usp=sharing",
+          buttn3: "",
+          buttn3url: "",
         },
         {
           src: require("../../assets/img/_/AR/Handtracking.mp4"),
@@ -1208,7 +1226,12 @@ export default {
           portfolioName: "XR / VR - Handtracking",
           //portfolioType: "XR",
            details: "made in Unity3D with Leapmotion, SteamVR",
-          buttn: "",
+          buttn1: "",
+          buttn1url: "",
+          buttn2: "",
+          buttn2url: "",
+          buttn3: "",
+          buttn3url: "",
         },
           {
           src: require("../../assets/img/_/AR/bubble_hat.mp4"),
@@ -1217,7 +1240,12 @@ export default {
           portfolioName: "AR App - ARestaurant",
           //portfolioType: "AR",
           details: "made in Unity3D with Vuforia SDK.",
-          buttn: "",
+          buttn1: "",
+          buttn1url: "",
+          buttn2: "",
+          buttn2url: "",
+          buttn3: "",
+          buttn3url: "",
         },
         {
           src: require("../../assets/img/_/AR/bubble_hat.mp4"),
@@ -1225,7 +1253,6 @@ export default {
           thumb: require("../../assets/img/_/AR/milka3.png"),
           portfolioName: "AR - Object Tracking",
            details: "made in Meta Spark Studio. can be used in Instagram.",
-          buttn: "",
         },
         {
           src: require("../../assets/img/_/AR/preview.mp4"),
@@ -1233,7 +1260,6 @@ export default {
           thumb: require("../../assets/img/_/AR/neon-pink.png"),
           portfolioName: "AR - Glitch Art",
           details: "made in Lens Studio. experimental Glitch Art Filter.",
-          buttn: "",
         },
         {
           src: require("../../assets/img/_/AR/video_final_burger.mp4"),

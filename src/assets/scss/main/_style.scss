@@ -920,7 +920,7 @@ body.loaded .overlay_effect:after {
 .shane_tm_button a {
   text-decoration: none;
   color: #fff;
-  background-color: #000;
+  background-color: #000000;
   display: inline-block;
   padding: 13px 48px;
   border: 2px solid #000;
@@ -3339,7 +3339,12 @@ body.intro .loader_line:after {
 // ------------------------ MY CUSTOM STYLE
 
 .custom-button-green {
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
   background-color: green;
+  margin: 10px;
+  color:#3a00ff;
 }
 
 .centered-container {
