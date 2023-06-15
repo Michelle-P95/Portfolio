@@ -145,7 +145,7 @@
             @close="index = null"
           >
           </CoolLightBox>
-          <li v-for="(image, imageIndex) in arVrItems" :key="imageIndex">
+          <li  v-for="(image, imageIndex) in arVrItems" :key="imageIndex" style="padding-left: 7%;">
             <div class="inner" @click="index = imageIndex">
               <div class="entry tokyo_tm_portfolio_animation_wrap">
                  <img class="image" :src="image.thumb" alt="Portfolio" />
@@ -164,7 +164,9 @@
               
             </div> 
             <div v-if="image.portfolioName" class="custom-post-title"> {{ image.portfolioName }}</div>
-            <button v-if="image.xr" class="custom-button-green" href='https://github.com/Michelle-P95/XR-Handtracking'>{{ image.xr }}</button>
+            <div style="color: black; text-align: center; display: flex; justify-content: center; align-items: center;" v-if="image.details"> {{ image.details }}</div>
+
+            <button v-if="image.buttn" class="custom-button-green" href='https://github.com/Michelle-P95/XR-Handtracking'>{{ image.buttn }}</button>
             <button href="" style="visibility: hidden;"></button>
           </li>
           <!-- btn-outline dreht um?- -->
@@ -1185,74 +1187,85 @@ export default {
           src: require("../../assets/img/_/AR/bubble_hat.mp4"),
           autoplay: true,
           thumb: require("../../assets/img/_/AR/Food4Me.png"),
-          portfolioName: "AR App",
-          portfolioType: "AR",
+          portfolioName: "AR App - Food4Me",
+          //portfolioType: "AR",
           play: require("../../assets/img/_/play.png"),
+          details: "made with User-Centered-Design in Unity3D.",
+          buttn: "",
         },
         {
           src: require("../../assets/img/_/AR/bubble_hat.mp4"),
           autoplay: true,
           thumb: require("../../assets/img/_/AR/virtualGarden.png"),
-          portfolioName: "mobile App (Unity)",
-          portfolioType: "AR",
+          portfolioName: "AR App - virtual Garden",
+          details: "made with User-Centered-Design in Unity3D.",
+          buttn: "",
         },
         {
           src: require("../../assets/img/_/AR/Handtracking.mp4"),
           autoplay: true,
           thumb: require("../../assets/img/_/AR/HandtrackingXR.png"),
-          portfolioName: "Handtracking (Unity)",
-          portfolioType: "XR",
-          xr: "Source code",
+          portfolioName: "XR / VR - Handtracking",
+          //portfolioType: "XR",
+           details: "made in Unity3D with Leapmotion, SteamVR",
+          buttn: "",
         },
           {
           src: require("../../assets/img/_/AR/bubble_hat.mp4"),
           autoplay: true,
           thumb: require("../../assets/img/_/AR/ARestaurant.png"),
-          portfolioName: "mobile App (Unity)",
-          portfolioType: "AR",
+          portfolioName: "AR App - ARestaurant",
+          //portfolioType: "AR",
+          details: "made in Unity3D with Vuforia SDK.",
+          buttn: "",
         },
         {
           src: require("../../assets/img/_/AR/bubble_hat.mp4"),
           autoplay: true,
           thumb: require("../../assets/img/_/AR/milka3.png"),
-          portfolioName: "(Meta Spark Studio)",
-          portfolioType: "AR",
-        },
-        
-        {
-          src: require("../../assets/img/_/AR/video_final_burger.mp4"),
-          autoplay: true,
-          thumb: require("../../assets/img/_/AR/burger.png"),
-          portfolioName: "(Lens Studio)",
-          portfolioType: "AR",
+          portfolioName: "AR - Object Tracking",
+           details: "made in Meta Spark Studio. can be used in Instagram.",
+          buttn: "",
         },
         {
           src: require("../../assets/img/_/AR/preview.mp4"),
           autoplay: true,
           thumb: require("../../assets/img/_/AR/neon-pink.png"),
-          portfolioName: "(Lens Studio)",
-          portfolioType: "AR",
+          portfolioName: "AR - Glitch Art",
+          details: "made in Lens Studio. experimental Glitch Art Filter.",
+          buttn: "",
+        },
+        {
+          src: require("../../assets/img/_/AR/video_final_burger.mp4"),
+          autoplay: true,
+          thumb: require("../../assets/img/_/AR/burger.png"),
+          portfolioName: "AR - Face Tracking",
+           details: "made in Lens Studio. triggers with a kiss mouth.",
+          buttn: "",
         },
         {
           src: require("../../assets/img/_/AR/bubble_hat.mp4"),
           autoplay: true,
           thumb: require("../../assets/img/_/AR/bubble_hat.png"),
-          portfolioName: "(Lens Studio)",
-          portfolioType: "AR",
+              portfolioName: "AR - Face Tracking",
+                 details: "made in Lens Studio. triggers with open Mouth.",
+          buttn: "",
         },
         {
           src: require("../../assets/img/_/AR/YouVSWild.mp4"),
           autoplay: true,
           thumb: require("../../assets/img/_/AR/YouvsWild.png"),
-          portfolioName: "(Lens Studio)",
-          portfolioType: "AR",
+              portfolioName: "AR - Face Tracking",
+                  details: "made in Lens Studio. triggers with open Mouth Animations, Sounds and more.",
+          buttn: "",
         },
         {
           src: require("../../assets/img/_/AR/video_conch.mp4"),
           autoplay: true,
           thumb: require("../../assets/img/_/AR/magic_conch.png"),
-          portfolioName: "(Lens Studio)",
-          portfolioType: "AR",
+               portfolioName: "AR - Face Tracking",
+                 details: "made in Lens Studio. Randomizer and triggers with Touch.",
+          buttn: "",
         }
         
       

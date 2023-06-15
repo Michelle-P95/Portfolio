@@ -12,6 +12,8 @@
               <img src="../assets/img/_/logo/xing.png" alt="LinkedIn Icon" height="30px"></a> 
 						<a href="https://github.com/Michelle-P95?tab=repositories"  >
               <img src="../assets/img/_/logo/GitHub-Mark.png" alt="LinkedIn Icon" height="30px"></a>
+             <!-- <a href="https://lensstudio.snapchat.com/creator/yMqWE9Ok-4iqpoOApILXTA"  >
+                <img src="../assets/img/_/logo/LensStudio.png" alt="Lens Creator Profil" height="30px"></a> -->
           </p>
          
 <br><br>
