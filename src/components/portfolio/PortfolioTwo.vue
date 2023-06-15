@@ -200,10 +200,7 @@
                   <img class="image" src="../../assets/img/_/Design/Mockup-Magazin.png" alt="Portfolio" />
                 </div>
                 <!-- End .entry -->
-                <div class="mobile_title">
-                  <h3>Magazine Article (Indesign)</h3>
-                  <span>Design</span>
-                </div>
+                
               </div>
             </li>
 
@@ -213,10 +210,8 @@
                 <img class="image" :src="image.thumb" alt="Portfolio" />
               </div>
               <!-- End .entry -->
-              <div class="mobile_title">
-                <h3>{{ image.portfolioName }}</h3>
-                <span>{{ image.portfolioType }}</span>
-              </div>
+              <div v-if="image.portfolioName" class="custom-post-title"> {{ image.portfolioName }}</div>
+              <div style="color: black; text-align: center; display: flex; justify-content: center; align-items: center;" v-if="image.details"> {{ image.details }}</div>
             </div>
           </li>
           <!-- End li -->
@@ -1301,33 +1296,36 @@ export default {
         {
           src: require("../../assets/img/_/Design/Illustrator_Sign.png"),
           thumb: require("../../assets/img/_/Design/Illustrator_Sign.png"),
-          portfolioName: "(Illustrator)",
-          portfolioType: "Design",
+          portfolioName: "Graphic Design",
+          //portfolioType: "Design",
+          details: "made with Illustrator."
         },  
         {
           src: require("../../assets/img/_/Design/UX - Grafik - JobsToBeDone.jpg"),
           thumb: require("../../assets/img/_/Design/UX - Grafik - JobsToBeDone.png"),
-          portfolioName: "Jobs to be done",
-          portfolioType: "Illustration",
+          portfolioName: "Illustration",
+          //portfolioType: "Illustration",
+          details: "about the Framwork 'Jobs-to-be-done'.",
         },
         {
           src: require("../../assets/img/_/Design/UX - Grafik - DesignMindset.jpg"),
           thumb: require("../../assets/img/_/Design/UX - Grafik - DesignMindset.png"),
-          portfolioName: "Design Thinking",
-          portfolioType: "Illustration",
+          portfolioName: "Illustration",
+          //portfolioType: "",
+          details: "about the Framwork 'Design Thinking'.",
         },
 
         {
           src: require("../../assets/img/_/Design/UX Design - My Story.jpg"),
           thumb: require("../../assets/img/_/Design/UX Design - My Story.png"),
-          portfolioName: "My UX learning Story",
-          portfolioType: "Illustration",
+          portfolioName: "Illustration",
+          details: "about my Story about lerning Process of Ux-Desing Theorie. made with Photoshop and Miro.",
         },
         {
           src: require("../../assets/img/_/Design/UX - Grafik - UXProcess Kopie.png"),
           thumb: require("../../assets/img/_/Design/UX - Grafik - UXProcess.png"),
-          portfolioName: "UX-Process",
-          portfolioType: "Illustration",
+          portfolioName: "Illustration",
+          details: "about the UX-Process.",
         },
         
       ],
