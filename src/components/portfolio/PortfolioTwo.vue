@@ -1230,7 +1230,7 @@ export default {
           buttn3url: "",
         },
           {
-          src: require("../../assets/img/_/AR/bubble_hat.mp4"),
+          src: require("../../assets/img/_/AR/ARestaurant_x1.8.mp4"),
           autoplay: true,
           thumb: require("../../assets/img/_/AR/ARestaurant.png"),
           portfolioName: "AR App - ARestaurant",
