@@ -305,12 +305,14 @@
                
           </li>
 
+         <!--    Modal für CAD erstmal weg. erst wenn ux & alles fertig wenn ich will nochmal an
+            
           <li>
             <div class="inner" @click="showModal6">
               <div class="entry shane_tm_portfolio_animation_wrap">
                 <img class="image" src="../../assets/img/_/3D/catia_cad.png" alt="Portfolio" />
               </div>
-              <!-- End .entry -->
+             End .entry 
               <div class="mobile_title">
                              <img src="../../assets/img/_/project3.png" alt="Play Icon">
                       </div>
@@ -322,7 +324,7 @@
                   <div class="custom-post-title">CAD (Catiav5/Solidworks)</div>
                   <div>open to read details about my 3 years experience as cad product designer/konstrukteur.</div></div>
 
-          </li>
+          </li> -->
           <!-- End li -->
         </ul>
         <!-- End .portfolio_list -->
@@ -1310,7 +1312,7 @@ export default {
           autoplay: true,
           thumb: require("../../assets/img/_/AR/milka3.png"),
           portfolioName: "AR - Object Tracking",
-           details: "made in Meta Spark Studio. can be used in Instagram.",
+           details: "made in Meta Spark Studio. The chocolate models and their animations i have made in Blender.",
         },
           {
           src: require("../../assets/img/_/AR/video_conch.mp4"),
@@ -1430,6 +1432,12 @@ export default {
           thumb: require("../../assets/img/_/3D/gameboy.png"),
           portfolioName: "3D Model - Blender",
           details: "made in Blender. I have done modelling, texturing and animations.",
+        },
+        {
+          src: require("../../assets/img/_/3D/catia_cad.jpg"),
+          thumb: require("../../assets/img/_/3D/catia_cad.jpg"),
+          portfolioName: "CAD - Catiav5/Autocad",
+          details: "experiene 3 years as konstrukteur/product designer. including part design, generative shape design, assembly design, technical drawings",
         },
 
       ],
