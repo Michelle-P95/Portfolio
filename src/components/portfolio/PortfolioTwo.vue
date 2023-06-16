@@ -14,7 +14,7 @@
         </div>
       </div>
 
-      <div style="color: orange;"><i>click on any image to see a video presentation</i></div>
+  
       <!-- End shane_tm_title -->
       <div class="portfolio_filter">
         <ul>
@@ -63,55 +63,79 @@
           </CoolLightBox> -->
 
 <!-- ___________________________ posts UX projects ______________________________-->
-          <li>
+          <li style="padding-left: 7%;">
             <div class="inner" @click="showModal1">
               <div class="">
                 <img class="image" src="../../assets/img/_/AR/Food4Me.png" alt="Portfolio" />
               </div>
               <!-- End .entry -->
               <div class="mobile_title">
-                <h3>Food4me</h3>
-                <span>UX</span>
-              </div>
-            </div>
+                             <img src="../../assets/img/_/project3.png" alt="Play Icon">
+                      </div>
+           </div>
+              
+                <div  style="color: black; 
+                text-align: center;  justify-content: center; align-items: center;"
+                  >
+                  <div class="custom-post-title">UX Project - App (Food4me)</div>
+                  <div>open to see my methods and results.</div></div>
+   
           </li>
 
-          <li>
+          <li style="padding-left: 7%;">
             <div class="inner" @click="showModal2">
               <div class="entry shane_tm_portfolio_animation_wrap">
                 <img class="image" src="../../assets/img/_/AR/virtualGarden.png" alt="Portfolio" />
               </div>
               <!-- End .entry -->
-              <div class="mobile_title">
-                <h3>Virtual Garden</h3>
-                <span>UX</span>
-              </div>
-            </div>
+             <div class="mobile_title">
+                           <img src="../../assets/img/_/project3.png" alt="Play Icon">
+                    </div>
+
+                      </div>
+                  <div  style="color: black; 
+                  text-align: center;  justify-content: center; align-items: center;"
+                    >
+                    <div class="custom-post-title">UX Project - App (virtual Garden)</div>
+                    <div>open to see my methods and results.</div></div>
+        
           </li>
 
-          <li>
+          <li style="padding-left: 7%;">
             <div class="inner" @click="showModal3">
               <div class="entry shane_tm_portfolio_animation_wrap">
                 <img class="image" src="../../assets/img/_/ux/Tattoo App - Empathy Map.png" alt="Portfolio" />
               </div>
               <!-- End .entry -->
               <div class="mobile_title">
-                <h3>Tattoo App</h3>
-                <span>UX</span>
-              </div>
-            </div>
+                           <img src="../../assets/img/_/project3.png" alt="Play Icon">
+                    </div>
+   </div>
+                  
+                  <div  style="color: black; 
+                  text-align: center;  justify-content: center; align-items: center;"
+                    >
+                    <div class="custom-post-title">UX Project - App (Tattoo)</div>
+                    <div>open to see my methods and results.</div></div>
+           
           </li>
 
-          <li>
+          <li style="padding-left: 7%;">
             <div class="inner" @click="showModal4">
               <div class="entry shane_tm_portfolio_animation_wrap">
                 <img class="image" src="../../assets/img/_/AR/ARestaurant.png" alt="Portfolio" />
               </div>
               <!-- End .entry -->
               <div class="mobile_title">
-                         <img src="../../assets/img/_/open.png" alt="Play Icon">
+                         <img src="../../assets/img/_/project3.png" alt="Play Icon">
                   </div>
-            </div>
+                     </div>
+                  <div  style="color: black; 
+                  text-align: center;  justify-content: center; align-items: center;"
+                    >
+                    <div class="custom-post-title">UX Project - App (ARestaurant)</div>
+                    <div>open to see my methods and results.</div></div>
+
           </li>
 
           <!-- <li v-for="(image, imageIndex) in uxItems" :key="imageIndex">
@@ -198,22 +222,40 @@
             <li>
               <div class="inner" @click="showModal5">
                 <div class="entry shane_tm_portfolio_animation_wrap">
-                  <img class="image" src="../../assets/img/_/Design/Mockup-Magazin.png" alt="Portfolio" />
+                  <img class="image" src="../../assets/img/_/Design/magazin.png" alt="Portfolio" />
                 </div>
                 <!-- End .entry -->
-                
+                <div class="mobile_title">
+                           <img src="../../assets/img/_/project3.png" alt="Play Icon">
+                    </div>
               </div>
+
+              <div  style="color: black; 
+              text-align: center;  justify-content: center; align-items: center;"
+                >
+                <div class="custom-post-title">Magazine Design</div>
+                <div>made in Indesign. with Photoshop and Illustrator.</div></div>
+
+
+
             </li>
 
-          <li v-for="(image, imageIndex) in designItems" :key="imageIndex">
+          <li v-for="(image, imageIndex) in designItems" :key="imageIndex" style="padding-left: 7%;">
             <div class="inner" @click="index = imageIndex">
               <div class="entry tokyo_tm_portfolio_animation_wrap">
                 <img class="image" :src="image.thumb" alt="Portfolio" />
               </div>
               <!-- End .entry -->
+
+              <div  v-if="image.autoplay" class="mobile_title">
+                                 <img src="../../assets/img/_/play.png" alt="Play Icon">
+                          </div>
+                          </div>
+
               <div v-if="image.portfolioName" class="custom-post-title"> {{ image.portfolioName }}</div>
               <div style="color: black; text-align: center; display: flex; justify-content: center; align-items: center;" v-if="image.details"> {{ image.details }}</div>
-            </div>
+             
+           
           </li>
           <!-- End li -->
         
@@ -236,17 +278,31 @@
           >
           </CoolLightBox>
 
-          <li v-for="(image, imageIndex) in dreiDItems" :key="imageIndex">
+          <li v-for="(image, imageIndex) in dreiDItems" :key="imageIndex" style="padding-left: 7%;">
             <div class="inner" @click="index = imageIndex">
               <div class="entry tokyo_tm_portfolio_animation_wrap">
                 <img class="image" :src="image.thumb" alt="Portfolio" />
               </div>
-              <!-- End .entry -->
-              <div class="mobile_title">
-                <h3>{{ image.portfolioName }}</h3>
-                <span>{{ image.portfolioType }}</span>
-              </div>
-            </div>
+
+              <div v-if="image.autoplay" class="mobile_title">
+                         <img src="../../assets/img/_/play.png" alt="Play Icon">
+                  </div>
+
+              
+              </div> 
+              <div v-if="image.portfolioName" class="custom-post-title"> {{ image.portfolioName }}</div>
+              <div style="color: black; text-align: center; display: flex; justify-content: center; align-items: center;" v-if="image.details"> {{ image.details }}</div>
+              <div style="color: orange; font-weight: bold; text-align: center; display: flex; justify-content: center; align-items: center;" v-if="image.additional"> {{ image.additional }}</div>
+
+              <div style="text-align: center; display: flex; justify-content: center; align-items: center; margin-top: 25px;">
+              <div v-if="image.buttn1" class="shane_tm_button">
+                <a :href=image.buttn1url >{{ image.buttn1 }}</a></div>
+              <div v-if="image.buttn2" class="shane_tm_button">
+                <a :href=image.buttn2url >{{ image.buttn2 }}</a></div>
+              <div v-if="image.buttn3" class="shane_tm_button">
+                <a :href=image.buttn3url >{{ image.buttn3 }}</a></div>
+                </div>
+               
           </li>
 
           <li>
@@ -256,10 +312,16 @@
               </div>
               <!-- End .entry -->
               <div class="mobile_title">
-                <h3>(CatiaV5)</h3>
-                <span>CAD</span>
-              </div>
+                             <img src="../../assets/img/_/project3.png" alt="Play Icon">
+                      </div>
             </div>
+
+            <div  style="color: black; 
+                text-align: center;  justify-content: center; align-items: center;"
+                  >
+                  <div class="custom-post-title">CAD (Catiav5/Solidworks)</div>
+                  <div>open to read details about my 3 years experience as cad product designer/konstrukteur.</div></div>
+
           </li>
           <!-- End li -->
         </ul>
@@ -1295,18 +1357,18 @@ export default {
           thumb: require("../../assets/img/_/Design/Illustrator_Sign.png"),
           portfolioName: "Graphic Design",
           //portfolioType: "Design",
-          details: "made with Illustrator."
+          details: "made in Illustrator."
         },
         {
           src: require("../../assets/img/_/Design/UX - Grafik - JobsToBeDone.jpg"),
-          thumb: require("../../assets/img/_/Design/UX - Grafik - JobsToBeDone.png"),
+          thumb: require("../../assets/img/_/Design/UX - Grafik - JobsToBeDone.jpg"),
           portfolioName: "Illustration",
           //portfolioType: "Illustration",
           details: "about the Framwork 'Jobs-to-be-done'.",
         },
         {
           src: require("../../assets/img/_/Design/UX - Grafik - DesignMindset.jpg"),
-          thumb: require("../../assets/img/_/Design/UX - Grafik - DesignMindset.png"),
+          thumb: require("../../assets/img/_/Design/UX - Grafik - DesignMindset.jpg"),
           portfolioName: "Illustration",
           //portfolioType: "",
           details: "about the Framwork 'Design Thinking'.",
@@ -1314,13 +1376,13 @@ export default {
 
         {
           src: require("../../assets/img/_/Design/UX Design - My Story.jpg"),
-          thumb: require("../../assets/img/_/Design/UX Design - My Story.png"),
+          thumb: require("../../assets/img/_/Design/UX Design - My Story.jpg"),
           portfolioName: "Illustration",
-          details: "about my Story about lerning Process of Ux-Desing Theorie. made with Photoshop and Miro.",
+          details: "about my Story about lerning Process of Ux-Desing Theorie. made in Photoshop with Miro.",
         },
         {
-          src: require("../../assets/img/_/Design/UX - Grafik - UXProcess Kopie.png"),
-          thumb: require("../../assets/img/_/Design/UX - Grafik - UXProcess.png"),
+          src: require("../../assets/img/_/Design/UX - Grafik - UXProcess.jpg"),
+          thumb: require("../../assets/img/_/Design/UX - Grafik - UXProcess.jpg"),
           portfolioName: "Illustration",
           details: "about the UX-Process.",
         },
@@ -1340,33 +1402,33 @@ export default {
           src: require("../../assets/img/_/3D/video-3d-game.mp4"),
             autoplay: true,
           thumb: require("../../assets/img/_/3D/mockup_3D-Game.png"),
-          portfolioName: "(Unity)",
-          portfolioType: "3D Game",
+          portfolioName: "3D Game - Überkochen",
+          details: "made in Unity3D. up to 4 Players.",
         }, 
         {
           src: require("../../assets/img/_/3D/video-3d-game.mp4"),
             autoplay: true,
           thumb: require("../../assets/img/_/3D/2D-Game.png"),
-          portfolioName: "(Unity)",
-          portfolioType: "2D Game",
-        },
-        {
-          src: require("../../assets/img/_/3D/Bierkrug.jpg"),
-          thumb: require("../../assets/img/_/3D/Bierkrug.png"),
-          portfolioName: "(Maya)",
-          portfolioType: "3D",
+          portfolioName: "2D Game",
+          details: "made in Unity3D. Adventure Game.",
         },
         {
           src: require("../../assets/img/_/3D/taperecorder2.jpg"),
           thumb: require("../../assets/img/_/3D/taperecorder2.png"),
-          portfolioName: "(Maya)",
-          portfolioType: "3D",
+          portfolioName: "3D Model - Maya",
+          details: "made in Maya. I have made various Models. I have worked here with Groups and according given requirements.",
+        },
+        {
+          src: require("../../assets/img/_/3D/Bierkrug.jpg"),
+          thumb: require("../../assets/img/_/3D/Bierkrug.jpg"),
+          portfolioName: "Rendering - Maya",
+          details: "made in Maya. I have made various Models. I have done here modelling, texturing, lightning and rendering.",
         },
         {
           src: require("../../assets/img/_/3D/gameboy.png"),
           thumb: require("../../assets/img/_/3D/gameboy.png"),
-          portfolioName: "(Blender)",
-          portfolioType: "3D",
+          portfolioName: "3D Model - Blender",
+          details: "made in Blender. I have done modelling, texturing and animations.",
         },
 
       ],

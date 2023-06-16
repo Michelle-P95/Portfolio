@@ -33,7 +33,7 @@
         <br><br>
         --> because that's what i want to ensure, using technology for bettering our Human Life !
         
-        <i style="color:limegreen;">my favorite questions are <bold>HOW</bold> & <bold>WHY</bold> ?</i>
+        <i style="color:lightgreen;">my favorite questions are <bold>HOW</bold> & <bold>WHY</bold> ?</i>
 
 <!-- style="color:rgb(115, 162,43);  -->
        
