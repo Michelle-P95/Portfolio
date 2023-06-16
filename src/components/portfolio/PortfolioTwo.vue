@@ -1250,13 +1250,13 @@ export default {
 // ----------------------------------------------------------------------------- AR      
       arVrItems: [
         {
-          src: require("../../assets/img/_/AR/bubble_hat.mp4"),
+          src: require("../../assets/img/_/AR/food4me_clideo.mp4"),
           autoplay: true,
           thumb: require("../../assets/img/_/AR/Food4Me.png"),
           portfolioName: "AR App - Food4Me",
           //portfolioType: "AR",
           play: require("../../assets/img/_/play.png"),
-          details: "made with User-Centered-Design in Unity3D.",
+          details: "made with User-Centered-Design in Unity3D. AR at 1:12min in video.",
           buttn1: "",
           buttn1url: "https://gitlab.com/Michelle-P95/food4me/-/tree/master/Assets/Scripts",
           buttn2: "",
