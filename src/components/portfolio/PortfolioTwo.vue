@@ -1037,7 +1037,8 @@
               <!-- End image -->
               <div class="details">
                 <h3 class="title">
-                  PROJECT 5
+                  Design - Magazin Article
+
                 </h3>
                 <p class="date">
                   <a href="#"> </a>
@@ -1048,67 +1049,47 @@
 
               <div class="description" style="color: black; font-size: 17px;">
                 <ul style="list-style-type:disc; list-style-color: black; ">
-                  <li>Fokusgruppe</li>
-                  <li>Low-Fidelity (Paperprototyp)</li>
-                  <li>A/B Testing</li>
-                  <li>Nasa TLX</li>
-                  <li>High-Fidelity (Unity)</li>
-                  <li>Usability Test</li>
-                  <li>Attrakdiff</li>
+               
               
                 </ul>
-                <br>
-                <ul style="list-style-type:disc; list-style-color: black; ">
-                  <li>Understand == Researche (Empathise & Define)</li>
-                  <li>Ideate / Design</li>
-                  <li>Develop == Protoyp</li>
-                  <li>Test</li>
-                </ul>
-                <br>
+             
+                
+              
               
                 <p>
-                  <a href="">Presentation</a><br>
-                  <a href="">Documentation</a><br>
-                  <a href="">Miro Board</a><br>
-                  <a href="">Sourcecode on Github</a><br>
+                  I have designed a Cover and an Article over 3 Pages. The Topic was Mindset. <br>
+                  First i have made some sketches of Layout i like, Color Palettes and collected some free license Pictures i may use later. <br>
+                  After having some Ideas of Concepts, i made with Photoshop of five stock Images (which are seen on the right side) one composition which i wanted to use in my Magazin Design later.
                 </p>
-              
-                <br>
-                <p>
-                  Paragraph 1
-                </p>
-              
-                <br>
-                <video id="videoFaster" width="20%" muted controls>
-                  <source src="../../assets/img/_/AR/bubble_hat.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                </video>
-                <br>
-              
-                <p>
-                  Paragraph 2
-                </p>
-              
-                <br>
-                <img src="../../assets/img/_/ux/virtual Garden - User Flow.png" style="display: block; margin: 0 auto; width: 100%;">
-                <br>
-              
-                <p>
-                  Paragraph 3
-                </p>
-              
-                <br>
-                <img src="../../assets/img/_/ux/virtual Garden - Storyboard.png" style="display: block; margin: 0 auto; width: 80%;">
                 <br>
 
-              <img src="../../assets/img/_/Design/PS.jpg" width="50%">
+              <img src="../../assets/img/_/Design/PS.jpg" width="80%">
+               <br>   <br>
+                  <p>
+                    Next step i created an vector Graphic in Illustrator also for using that later too. <br>
+                    I brainstormed about the Idea and used similar Colores to my Photoshop composition.
+                  </p>
+                  <br>
+                <img src="../../assets/img/_/Design/Illustrator_Sign.png" width="80%"> <br><br>
 
-                <img src="../../assets/img/_/Design/Illustrator_Sign.png" width="50%"> <br><br>
+               
+                <p>
+                  Finaly i created my InDesign File. I wrote some paragraphs down of my favourite Book (How to not give a F*ck - Mark Manson) and placed the whole Text as one on the Pages first. In various Interations i played with different Ideas though i came the my final Design. <br>
+                  
+                </p>
+                <br>
 
                 <img src="../../assets/img/_/Design/Mockup-Magazin.jpg">
+
+                <br>     <br>
                 <p>
-                  Paragraph 4
+                 Cause i am a very music loving person i created a Spotify Playlist which communicates the Vibe i wanted to create with this Magazin Design and placed it on one Page. <br>
+                 Listen to it and i am happy to hear your Feedback about matching the Music with my Magazin Article Design ! :)
                 </p>
+
+              
+
+                
               
               </div>
 
