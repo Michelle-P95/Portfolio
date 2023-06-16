@@ -1406,7 +1406,7 @@ export default {
           details: "made in Unity3D. up to 4 Players.",
         }, 
         {
-          src: require("../../assets/img/_/3D/video-3d-game.mp4"),
+          src: require("../../assets/img/_/3D/video-2D-game.mp4"),
             autoplay: true,
           thumb: require("../../assets/img/_/3D/2D-Game.png"),
           portfolioName: "2D Game",
