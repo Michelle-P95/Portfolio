@@ -1265,7 +1265,7 @@ export default {
           buttn3url: "https://docs.google.com/document/d/1mUVoPpCGsO9plmABnNau5JqEvXcva0iUBgEd1U8KJqI/edit?usp=sharing",
         },
         {
-          src: require("../../assets/img/_/AR/bubble_hat.mp4"),
+          src: require("../../assets/img/_/AR/video_virtualGarden_480p.mp4"),
           autoplay: true,
           thumb: require("../../assets/img/_/AR/virtualGarden.png"),
           portfolioName: "AR App - virtual Garden",
@@ -1306,7 +1306,7 @@ export default {
           buttn3url: "",
         },
         {
-          src: require("../../assets/img/_/AR/bubble_hat.mp4"),
+          src: require("../../assets/img/_/AR/milka_video2.mp4"),
           autoplay: true,
           thumb: require("../../assets/img/_/AR/milka3.png"),
           portfolioName: "AR - Object Tracking",
@@ -1413,7 +1413,8 @@ export default {
           details: "made in Unity3D. Adventure Game.",
         },
         {
-          src: require("../../assets/img/_/3D/taperecorder2.jpg"),
+          src: require("../../assets/img/_/3D/recorder.mp4"),
+          autoplay: true,
           thumb: require("../../assets/img/_/3D/taperecorder2.png"),
           portfolioName: "3D Model - Maya",
           details: "made in Maya. I have made various Models. I have worked here with Groups and according given requirements.",
