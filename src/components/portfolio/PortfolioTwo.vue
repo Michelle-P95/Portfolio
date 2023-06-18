@@ -77,7 +77,7 @@
                 <div  style="color: black; 
                 text-align: center;  justify-content: center; align-items: center;"
                   >
-                  <div class="custom-post-title">UX Project - App (Food4me)</div>
+                  <div id="ar-xr-tab" class="custom-post-title">UX Project - App (Food4me)</div>
                   <div>open to see my methods and results.</div></div>
    
           </li>
@@ -694,7 +694,7 @@
                     <p>
                       Through testing a paper prototype with 5 individuals, I was able to identify usability issues and make improvements to the design. Feedback was used to refine the design, ensuring that the augmented reality app is easy to use and visually appealing.
                     The traffic light colors were quite positive, so the color yellow, which signifies "attention," was added to highlight important information, such as tips for capturing action shots for the user.
-                    </p>s
+                    </p>
                     <br>                    
 <br>
                           <img src="../../assets/img/_/paperprototype/new_changes.png" height="300 vh">
@@ -712,7 +712,7 @@
                         Interaction Prototype
                         </h6><br>
                       <p>
-                         Based on the feedback from the paper prototype testing, an interactive prototype was developed using Unity. This prototype allowed users to experience the augmented reality app in a more realistic and immersive way, and provided valuable insights into how users interact with the app.
+                         Based on the feedback from the paper prototype testing, an interactive prototype was developed using Unity. With the vuforia sdk the AR features were implemented. This prototype allowed users to experience the augmented reality app in a more realistic and immersive way, and provided valuable insights into how users interact with the app.
           
                       </p>
 
@@ -758,19 +758,26 @@
 
      <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br>                       
 
-                      <br>  <br>
+                      <br>  
                           <h6>
                           Heuristic Evaluation
                           </h6><br>
                         <p>
                            A heuristic evaluation was conducted with 5 different individuals to identify usability issues and areas for improvement in the app. This evaluation helped to ensure that the app meets industry standards for usability and provided valuable insights into how to optimize the user experience. The Changes where mainly about the placing via AR in the World for a better imersive Experience.
+                           <br>
+                           <br>
+                           
+  Since testing the usability of Augmented Reality features with paper prototypes is not feasible, feedback for the Garden AR feature could only be collected during the evaluation of the digital prototype. Based on the testers' inquiries about using this feature, the UI was expanded to include a prompt to click on a surface to place the garden. (See image below) This helps provide clear and simple instructions to the user, alleviating any uncertainty. This is especially important as the use of Augmented Reality is still relatively new and not widely familiarized.
                         </p>
                         <br> 
+                        <img src="../../assets/img/_/paperprototype/evaluation_ar.png" height="300 vh" style="margin-right: 30px;"> <br>
 
+<br>
+                        <b>See the final App in the "AR/XR" Tab.</b> <br>
 
     <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
 
-     <br>  <br>
+     <br>  
                             <h6>
                             Conclusion
                             </h6><br>
@@ -785,15 +792,15 @@
 
 
 
-    <br>  <br>
+    <br>  
                             <h6>
                             Final Sources
                             </h6><br>
                           <p>
-                             An full Impression of the Final Prototype you can see on my AR Tab on my Portfolio. 
+                             
                           </p>
-                          <br> 
-                           ----> See here the <a href="https://github.com/Michelle-P95/AR-virtual-Garden">Sourcecode on Github</a> of the final developed Prototype<br> 
+                     
+                           ----> See here the <a href="https://github.com/Michelle-P95/AR-virtual-Garden">Project on Github</a> to see scripts, presentation, documentation and some design/development Impressions.<br> 
                       
                   
 
@@ -947,9 +954,16 @@
   </div>
                       <div class="description" style="color: black; font-size: 1em;">
   
-                         <p>This is an Project about an App for displaying Dishes of a Menu in a Restaurant with Augmented Reality. Following you can see my Overview of my UX Process. </p>
+                         <p>This is a Project about an App designed to revolutionize the dining experience in restaurants. By harnessing the power of augmented reality, this app aims to assist customers in making informed choices by visually presenting virtual dishes on their tables. With the ubiquity of smartphones, users can conveniently access this app to ensure they make the right choice and have their expectations fulfilled while dining out.
+                          
+                         
+
+              
+                            </p>
   
   <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br>
+
+                        
     
                        
                         <img src="../../assets/img/_/text-info/arestaurant_info.png" style="display: block; margin: 0 auto; width: 85%;">
@@ -958,18 +972,18 @@
                         <img src="../../assets/img/_/text-overview/overview_arestaurant.png" style="width: 50%">
                       <br>
                     
-                    
-
-                          !!! RETRO CONLUSCION - 
+               
                 
                 
-              
-                 <br>
-                
+              <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br>
+                 <br>  
+                              <h6>
+                              Personas
+                              </h6>
 
                 <br>
                   <p>
-                    To develop user personas, I conducted research and identified two primary user groups for the app.
+                    To start empatize and get in the shoes of the people, i conducted research and identified two primary user groups for the app. Following you see my created Personas.
                   </p>
                 <br>
 
@@ -977,6 +991,42 @@
                   <img src="../../assets/img/_/ux/ARestaurant - Persona 2.png" width="80%" style="display: block; margin: auto">
               
                 <br>
+
+                <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br>
+                     <br>  
+                                  <h6>
+                                  Problem Statement
+                                  </h6>
+
+                    <br>
+                      <p>
+                       One common challenge faced by diners in restaurants is the difficulty in making informed choices from an extensive menu. Traditional menus often provide limited information and rely heavily on textual descriptions, leaving customers uncertain about the appearance and presentation of the dishes they are considering. This lack of visual context can lead to disappointment and unsatisfactory dining experiences. Summarized i got the following Problem Statement: <br>
+                     <i style="color:darkorange">Restaurant customers require a user-friendly solution that allows them to easily visualize virtual dishes, understand portion sizes, identify specific ingredients, and gain a comprehensive understanding of the potential meal they are about to order. This is crucial in order to avoid making incorrect choices and ensure that their expectations are met, leading to a satisfying dining experience.
+                     </i> </p>
+                    <br>
+
+                      <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br>
+
+               
+                       <br>  
+                                    <h6>
+                                    Goal Statement
+                                    </h6>
+
+                      <br>
+                        <p>
+                            this brings us to following goal statement: 
+                       <i style="color:darkorange">The App will let users visualise dishes of a menu which will help restaurant customers by understanding meals and their sizes, portions of ingredients and help to make their right choice as well as editing their meal to their personal preferences.
+                       </i> </p>
+                      <br>
+
+                        <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br>
+
+                  <br>  
+                    <h6>
+                      Storyboard
+                    </h6> <br>
+
                     <p>
                       To create a visual representation of the user's journey, I developed a storyboard. This helped me visualize the user's experience with the app from start to finish. By creating a storyboard, I was able to identify potential usability issues and design solutions to improve the user experience.
                     </p>
@@ -985,14 +1035,34 @@
               
                 <img src="../../assets/img/_/ux/ARestaurant - Storyboard.png" width="80%" style="display: block; margin: auto">
           
-                    <br>
+                 <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br>
+
+                  <br>  
+                      <h6>
+                        KPPPP
+                      </h6> <br>
+
                       <p>
-                        Below you can see a vidoe of the final implemented High Fidelity Prototype.
+                        lalalallalalala
                       </p>
                   <br>
-                  
+                  <p>
+                             <b>See the final App in the "AR/XR" Tab.</b> <br>
+                        </p>
 
-                <br>
+                   <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br>
+                   <br>  
+                        <h6>
+                          Conclusion
+                        </h6> <br>
+
+                        <p>
+                          lalalallalalala
+                        </p>
+                    
+  <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br>
+                   
+           
                 <p>
                   ----> click here to see the <a href="https://github.com/Michelle-P95/AR-Restaurant-Menu">Sourcecode on Github</a><br>
                   </p>
