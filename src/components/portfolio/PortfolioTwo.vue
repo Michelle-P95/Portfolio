@@ -78,7 +78,7 @@
                 text-align: center;  justify-content: center; align-items: center;"
                   >
                   <div id="ar-xr-tab" class="custom-post-title">UX Project - App (Food4me)</div>
-                  <div>open to see my methods and results.</div></div>
+                  <div>to achieve long-term healthy nutrition</div></div>
    
           </li>
 
@@ -97,7 +97,7 @@
                   text-align: center;  justify-content: center; align-items: center;"
                     >
                     <div class="custom-post-title">UX Project - App (virtual Garden)</div>
-                    <div>open to see my methods and results.</div></div>
+                    <div>to understand the impact of behavior on climate change <br>and how to improve it</div></div>
         
           </li>
 
@@ -116,7 +116,7 @@
                   text-align: center;  justify-content: center; align-items: center;"
                     >
                     <div class="custom-post-title">UX Project - App (Tattoo)</div>
-                    <div>open to see my methods and results.</div></div>
+                    <div>to find the right tattoo artist and easily manage everything</div></div>
            
           </li>
 
@@ -134,7 +134,7 @@
                   text-align: center;  justify-content: center; align-items: center;"
                     >
                     <div class="custom-post-title">UX Project - App (ARestaurant)</div>
-                    <div>open to see my methods and results.</div></div>
+                    <div>to make the right meal decision that leaves you satisfied</div></div>
 
           </li>
 
@@ -379,9 +379,21 @@
                       <img src="../../assets/img/_/text-info/food4me_info_green.png" style="display: block; margin: 0 auto; width: 90%;">
 <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br>
   <div class="description" style="color: black; font-size: 1.4em; text-decoration: underline; font-weight: bold;">Process</div>
-                      <img src="../../assets/img/_/text-overview/overview_food4me.png" style="width: 50%">
+                      <img src="../../assets/img/_/text-overview/overview_food4me.png" style="width: 40%">
                     <br>
-                  
+                 
+                    <br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
+                    
+
+                      
+                        <br>
+                          <h6>
+                            Secondary Research 
+                          </h6><br>
+                          <p>
+                            As first step i did some research which results you can read detailed in my <a href="">Bachelorthesis</a>.
+                          </p>
+                          <br>
                   
  <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
                     
@@ -598,7 +610,7 @@
                                 Focusgroup 
                               </h6><br>
                               <p>
-                                Conducting a focus group allowed me to gather insights on the target audience's behavior and attitudes towards environmental impact. I was able to identify pain points and opportunities to motivate individuals to change their behavior using the augmented reality app.
+                                Conducting a focus group allowed me to gather insights on the target audience's behavior and attitudes towards environmental impact. I was able to identify pain points and opportunities to motivate individuals to change their behavior using the augmented reality app. See all the data in my <a href="">Excel Sheet</a>. 
                               </p>
                               <br>                
    <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
@@ -617,6 +629,35 @@
                 <img src="../../assets/img/_/ux/virtual Garden - Empathy Map.png" style="display: block; margin: 0 auto; width: 90%;">
                 
               <br>
+
+               <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
+                
+        
+
+               
+                              <br>
+                              <h6>
+                                Problem Statement 
+                              </h6><br>
+                              <p>
+                               People require a user-friendly solution that allows them to easily understand their behaviours climate change impact as well as inspiration how to easy change to similar changes. This is crucial in order to avoid making decisions which are bad for the enviroment and not having the conscious decision to choose a better choice for the climate.
+                              </p>
+                              <br>                
+
+                               <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
+                
+                 
+
+               
+                                <br>
+                                <h6>
+                                  Goal Statement 
+                                </h6><br>
+                                <p>
+                                  The App will let users show them visualy how their behaviour change the climate to the bad which will help to understand their impact and get Ideas how to change easy to better decisions for the climate.
+                                </p>
+                                <br>                
+
                <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
               <br>
                 <h6>
@@ -689,7 +730,7 @@
    
                      <br>
                       <h6>
-                      Evaluation
+                      Evaluation 
                       </h6><br>
                     <p>
                       Through testing a paper prototype with 5 individuals, I was able to identify usability issues and make improvements to the design. Feedback was used to refine the design, ensuring that the augmented reality app is easy to use and visually appealing.
@@ -868,39 +909,104 @@
     <br> 
                           <img src="../../assets/img/_/text-overview/overview_tattooapp.png" style="width: 30%">
                         <br>
+                       <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
+                    <br>
+                        <h6>
+                        User Interviews
+                        </h6><br>
+                      <p>
+  To start my project which getting data and understanding the needs of potential users, i conducted user interviews with 7 individuals who expressed interest in getting a tattoo. These interviews provided valuable insights into their needs, preferences, and expectations regarding tattoo services. The feedback gathered from these interviews has been pivotal in shaping the design and features of the app to cater to the unique requirements of the personas I have developed.</p>
+                      <br> 
                       
-                      
-     <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
-                  
+      <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
+                  <br>
+                      <h6>
+                      Personas
+                      </h6><br>
+                    <p>Through my collected insight i have identified three primary user groups. These personas served as a foundation for developing user-centered design solutions that meet the needs of all groups.</p>
+                    <br> 
+                
 
-              
-                <br><br>
-                <p>First i conducted research and identified three primary user groups for the app. These personas served as a foundation for developing user-centered design solutions that meet the needs of both groups.</p>
-  <br>
-                <img src="../../assets/img/_/ux/Tattoo App - Persona 1.png" width="80%" style="display: block; margin: auto">
-                <img src="../../assets/img/_/ux/Tattoo App - Persona 2.png" width="80%" style="display: block; margin: auto">
-                <img src="../../assets/img/_/ux/Tattoo App - Persona 3.png" width="80%" style="display: block; margin: auto">
+                    
+                <img src="../../assets/img/_/ux/Tattoo App - Persona 1.png" width="90%" style="display: block; margin: auto">
+                <img src="../../assets/img/_/ux/Tattoo App - Persona 2.png" width="90%" style="display: block; margin: auto">
+                <img src="../../assets/img/_/ux/Tattoo App - Persona 3.png" width="90%" style="display: block; margin: auto">
                 <br>
 
-                <p>To better understand the emotions, thoughts, and behaviors of our users, I created an empathy map. This helped me understand the users' needs and the barriers they face when seeking a tattoo artist. By using the empathy map, I was able to identify the users' pain points and develop solutions to overcome them.</p>
+                 <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
+                    <br>
+                        <h6>
+                        Empathy Map
+                        </h6><br>
+                      <p>To better understand the emotions, thoughts, and behaviors of all different types of users, I created an empathy map. This helped me understand the users' needs and the barriers they face when seeking a tattoo artist. By using the empathy map, I was able to identify the users' pain points and develop solutions to overcome them.</p>
+                      <br> 
+              
+
+               
                 
                 <br>
                 <img src="../../assets/img/_/ux/Tattoo App - Empathy Map.png" width="95%" style="display: block; margin: auto">
                 <br>
 
-                <p>To create a visual representation of the user's journey, I developed a storyboard. This helped me visualize the user's experience with the app from start to finish. By creating a storyboard, I was able to identify potential usability issues and design solutions to improve the user experience</p>
+                 <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
+                      <br><h6>
+                            User Stories
+                            </h6><br>
+                      
+                
+        
+               
 
+
+<ul  style="list-style-type:disc;">
+  <li>As a user looking for a tattoo, I want to be able to search for tattoo artists based on their specific tattoo style, so I can find an artist whose work aligns with my desired aesthetic.</li>
+
+  <li>As a user wanting a tattoo, I want to be able to locate tattoo artists near my current location, allowing me to find artists conveniently and reduce travel time.</li>
+
+  <li>As a user seeking a tattoo, I want to be able to view the availability of tattoo artists and book appointments directly through the app, making it easier to secure a time slot that works for both me and the artist.</li>
+
+  <li>As a user exploring tattoo options, I want to be able to browse through a tattoo artist's portfolio, viewing their previous work and gaining confidence in their artistic abilities.</li>
+
+ <li> As a user interested in getting a tattoo, I want to be able to read and leave reviews for tattoo artists, enabling me to make informed decisions and choose the right artist for my needs.</li>
+
+  <li>As a user scheduling a tattoo, I want to be able to communicate with the chosen tattoo artist through the app, exchanging drawings, discussing details, and organizing all necessary information in one central place.</li>
+  </ul>
+  <br>
+   <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
+
+                          <h6>
+                          Storyboard
+                          </h6><br>
+                      <p>To create a visual representation of the user's journey, I developed a storyboard. This helped me visualize the user's experience with the app from start to finish. By creating a storyboard, I was able to identify potential usability issues and design solutions to improve the user experience</p>
+
+                        
+               
                 <br>
-                <img src="../../assets/img/_/ux/Tattoo App - Storyboard.png" width="80%" style="display: block; margin: auto">
+                <img src="../../assets/img/_/ux/Tattoo App - Storyboard.png" width="90%" style="display: block; margin: auto">
                 <br>
 
-                <p>To create a seamless user experience, I developed a user flow that shows the user's path through the app. This user flow helped me identify areas of the app where the user may get lost or confused. By analyzing the user flow, I was able to make design decisions that guide the user and improve the overall experience.</p>
+                 <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
+                      <br>
+                          <h6>
+                          User Flow
+                          </h6><br>
+                      <p>To create a seamless user experience, I developed a user flow that shows the user's path through the app. This user flow helped me identify areas of the app where the user may get lost or confused. By analyzing the user flow, I was able to make design decisions that guide the user and improve the overall experience.</p>
+                        <br>     
                 
                 <br>
                 <img src="../../assets/img/_/ux/Tattoo App - User Flow.png" width="100%" style="display: block; margin: auto">
                 <br>
+   <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
+                      <br>
+                          <h6>
+                          Wireframes
+                          </h6><br>
+                     
+                        <p>Following some Wireframes. But here a just some impressions. As the Project is still in progress...</p>
+                        <br>
 
-                <p>In conclusion, the app design project involved employing several UX design methods, including personas, empathy maps, storyboards, and user flows. By using these methods, I was able to create a user-centered design that meets the needs of both first-time tattoo seekers and experienced tattoo enthusiasts. I believe that the app will provide a convenient and enjoyable experience for users seeking to find a suitable tattoo artist.</p>
+  <img src="../../assets/img/_/ux/Tattoo App - Wireframes.png" width="100%" style="display: block; margin: auto">
+               <!--      <p>In conclusion, the app design project involved employing several UX design methods, including personas, empathy maps, storyboards, and user flows. By using these methods, I was able to create a user-centered design that meets the needs of both first-time tattoo seekers and experienced tattoo enthusiasts. I believe that the app will provide a convenient and enjoyable experience for users seeking to find a suitable tattoo artist.</p>    -->
     
                 <br>
               
@@ -1020,6 +1126,28 @@
                        </i> </p>
                       <br>
 
+                      <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br>
+
+                    <br>  
+                      <h6>
+                        User Stories
+                      </h6> <br>
+
+                      <p> 
+                        <ul style="  list-style-type: disc;">
+                        <li>As a restaurant guest, I want to be able to see a 3D model of each dish on the menu card using augmented reality (AR), in order to have a better idea of the presentation and appearance of the dish.</li>
+ 
+                            <li> As a restaurant guest, I want the option to directly order the selected dish from the AR view through the app, to make the ordering process convenient and seamless.</li>
+                               
+                            <li> As a restaurant guest, I want to be able to make specific modifications to a dish by adding or removing ingredients or providing special preparation instructions while viewing the 3D model in the AR view, in order to customize my dish according to my specific preferences.</li>
+                                </ul>
+                        
+
+                        </p>
+                  <br>
+                
+
+          
                         <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br>
 
                   <br>  
