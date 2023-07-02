@@ -1125,7 +1125,17 @@
                         <img src="../../assets/img/_/text-overview/overview_arestaurant.png" style="width: 50%">
                       <br>
                     
-               
+                <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br>
+                   <br>  
+                                <h6>
+                                Survey
+                                </h6>
+
+                  <br>
+                    <p>
+                      Through the main purpose of this project which is about ordering food in a restaurant almost any person is a potential user. So i decided to do a survey via google forms to get as much participants as possible. I shared my survey via social Media and had at the end a summary of 86 participants.
+                    </p>
+                  <br>
                 
                 
               <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br>
@@ -1136,7 +1146,7 @@
 
                 <br>
                   <p>
-                    To start empatize and get in the shoes of the people, i conducted research and identified two primary user groups for the app. Following you see my created Personas.
+                    As next step to empatize and get in the shoes of the people, i evaluated my collected data and identified two primary user groups for the app. Following you see my created Personas.
                   </p>
                 <br>
 
@@ -1214,33 +1224,37 @@
 
                   <br>  
                       <h6>
-                        KPPPP
+                        Brainstorming
                       </h6> <br>
 
                       <p>
-                        lalalallalalala
+                        To get some Ideas of how to design the interaction of the menu card of the restaurant i did some brainstorming and finally decided to make the tracking via image tracking and designed the following Menu cards. 
                       </p>
+
+                         <img src="../../assets/img/_/ux/arestaurant_menucards.png" width="100%" style="display: block; margin: auto">
                   <br>
-                  <p>
-                             <b>See the final App in the "AR/XR" Tab.</b> <br>
-                        </p>
+                 
 
                    <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br>
                    <br>  
                         <h6>
-                          Conclusion
+                          Prototyp
                         </h6> <br>
 
                         <p>
-                          lalalallalalala
+                          Through the focus of developing/coding the app there was after creating the app no testing afterwards. 
                         </p>
-                    
-  <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br>
-                   
-           
-                <p>
+
+                         <p>
+                               <b>See the final App in the "AR/XR" Tab.</b> 
+                          </p>
+                           <p>
                   ----> click here to see the <a href="https://github.com/Michelle-P95/AR-Restaurant-Menu">Sourcecode on Github</a><br>
                   </p>
+                    
+ 
+           
+               
               
               </div>
 
