@@ -97,7 +97,7 @@
                   text-align: center;  justify-content: center; align-items: center;"
                     >
                     <div class="custom-post-title">UX Project - App (virtual Garden)</div>
-                    <div>to understand the impact of behavior on climate change <br>and how to improve it</div></div>
+                    <div>to understand the impact on climate change of personal behaviour <br>and help to improve it</div></div>
         
           </li>
 
@@ -391,7 +391,7 @@
                             Secondary Research 
                           </h6><br>
                           <p>
-                            As first step i did some research which results you can read detailed in my <a href="">Bachelorthesis</a>.
+                            As first step i did some research which results you can read detailed in my <a href="https://docs.google.com/document/d/1mUVoPpCGsO9plmABnNau5JqEvXcva0iUBgEd1U8KJqI/edit?usp=sharing" style="color:green">Bachelorthesis</a>
                           </p>
                           <br>
                   
@@ -438,18 +438,68 @@
                     <br>
                      <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
                             <br><h6>
-                          Paper Prototyp
+                          Brainstorming / Concept creation
                             </h6><br>
-                            <p>
-                              Creating two paper prototypes with a variable difference allowed me to compare and evaluate two different design concepts quickly and efficiently. _____________________________________________
-                            
+
+                            <p>After using some software design Methods (Usage requirements, functional requirements, non-functional requirements etc) at this point
+                              , i created based on my findings of my Research a Concept. (for more details <a href="https://docs.google.com/document/d/1mUVoPpCGsO9plmABnNau5JqEvXcva0iUBgEd1U8KJqI/edit?usp=sharing" style="color:green">Bachelthesis</a>)
+                              To test and proof my findings i created two versions of paperprototyps, Later i compare and evaluate in an A/B Testing.
+                              <br>
+                       
+                              For visualising purpose of Design and Navigation Brainstorming i created a <a href="https://miro.com/app/board/uXjVO84jJ7A=/" style="color:green">Miro Board</a>
                             </p>
                             <br>
-                           <img src="../../assets/img/_/paperprototype/negative_change_info.png" height="300 vh"> <br><br> 
-                           <img src="../../assets/img/_/paperprototype/negative_change_info.png" height="300 vh"> <br><br> 
-                           
+                       <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
+  <br><h6>
+                            Paperprototyps
+                              </h6><br>
+                        
+                              Following you can see my two Paperprototyps in a short description (more detailed here in <a href="https://docs.google.com/document/d/1mUVoPpCGsO9plmABnNau5JqEvXcva0iUBgEd1U8KJqI/edit?usp=sharing" style="color:green">Bachelorthesis</a>)<br> <br>
+                              <i style="font-weight: bolder; color: orange;">Paperprototyp 1</i> <br>
+                              The Navigation is via Tabbar on the bottom.<br> <br> 
+                              On the left Tab is the fuction for the use case "Buy Food". Here the cam opens and you can use the AR feature. On the Top is a Information for the user to scan any Product. On the Pictures on the right side is a Potato and a Eis scanned which you can see from the central Headers. On the Main Position is an UI overlay which gives the user some Information such as if its healthy or not as well as some cooking Ideas for this Product.
+<br> <br>
+   <img src="../../assets/img/_/food4me/pp1/left_tab_cam.jpg" style="width: 90%;">
 
+<br><br>
+          On the following you see the middle tab which is about the use case "Cooking". The Grid hase some Plans of different Dishes the user can cook to give some inspiration. After clicking for example on "Wrap" it opens the view on the right. There is a detailed plan of what ingredient categorys it is built. below the Header is even a tipp of how to make it even more healthy.
+<br><br>
+      <img src="../../assets/img/_/food4me/pp1/blaupause.jpg" style="width: 80%;"> 
+<br><br>
 
+          The right tab is to inspire with healthy food. A Grid has the main Food Categorys such as vegetables, fruit and more. Afte4r tapping on one it opens the List on the right picture. 
+<br>
+   <br>   <img src="../../assets/img/_/food4me/pp1/green_tab.jpg" style="width: 80%;">
+<br><br>
+
+          With the hamburger menu on the top right corner the user gets to a main menu, the use case "inform", which incluces informations, settings and hints.
+  <br><br>
+   <img src="../../assets/img/_/food4me/pp1/menu_tipps_etc.jpg" style="width: 80%;">
+   <br> <br>
+                          
+                              <i style="font-weight: bolder; color: orange;">Paperprototyp 2</i> <br> 
+                              <br>
+
+                              The second Prototyp is same in his information architektur and only gives the navigation via menu. It covers the same use cases But The main difference is that at every step via input it tracks the behaviour of the user. This variable i have found in my secondary research of the pain points of user input and behaviour tracking.  
+                              <br><br> 
+     <img src="../../assets/img/_/food4me/pp2/menuu.jpg" style="width: 20%;">
+<br>
+   <br>Below you see the use case "Buy food".
+
+   <br><br>
+     <img src="../../assets/img/_/food4me/pp2/ar_cam.png" style="width: 80%;">
+     <br> <br>
+
+     Following the use case "cooking".
+
+      <br><br>
+     <img src="../../assets/img/_/food4me/pp2/cooking.png" style="width: 60%;">
+     <br> <br>
+
+     and last use case of "informing". The overviews shows in this case with colors how every day was. if it was a healthy good nutrition day or the person has ate fish etc or red for a unhealthy nutrution day.
+   <br><br>
+       <img src="../../assets/img/_/food4me/pp2/inform.png" style="width: 80%;">
+       <br> <br>
                           
                             
         <br>
@@ -459,44 +509,37 @@
                              AB Testing
                             </h6><br>
                             <p>
-                              Conducting AB testing of paper prototypes helped to identify usability issues and refine the design of the app. This methodology allowed me to quickly test and iterate on different design concepts, ensuring that the final product is easy to use and visually appealing. 
+                              Conducting AB testing of paper prototypes helped to identify usability issues and refine the design of the app. This methodology allowed me to quickly test and iterate on different design concepts, ensuring that the final product is easy to use and visually appealing. The test persons where 6 persons which have been anticipated in the focus group.
                             </p>
                             
         <br>
                        <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
                         <br>
                               <h6>
-                               Nasa tlx
+                               Nasa-TLX
                               </h6><br>
                               <p>
-                                Using the NASA-TLX method helped to evaluate the overall cognitive load and mental effort required to use the app. This methodology allowed me to identify areas where the app may be overwhelming or confusing to users, and design solutions to reduce cognitive load and improve the overall user experience. By using the NASA-TLX method, I was able to ensure that the app is not only visually appealing and easy to use, but also efficient and effective in promoting healthy eating habits in the long run.
+                                Using the NASA-TLX method helped to evaluate the overall cognitive load and mental effort required to use the app, also called work load. Results of that quantitative analysis and my qualittative analysis you can see in my <a href="https://docs.google.com/document/d/1mUVoPpCGsO9plmABnNau5JqEvXcva0iUBgEd1U8KJqI/edit?usp=sharing" style="color:green">Bachelorthesis</a>.
                               </p>
                               
         <br>
                        <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
                         <br>
                               <h6>
-                             verbesserter prottoype
+                             Interaction Prototype
                               </h6><br>
                               <p>
-                                Text 
+                                After analysing all Results i used the paperprototyp 1 and did some improvements based on my results. 
+                                <br> through some confusions the tabs are changed to the three use cases which where bewertet good about the three buttons in the menu of paperprototyp 2. 
                               </p>
+                               Next i programmed an interactive prototype via Unity3D. See <a href="https://gitlab.com/Michelle-P95/food4me" style="color:green">Sourcecode on Gitlab</a><br>
                               <br>
+         
         <br>
                        <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
                         <br>
                               <h6>
-                               Unity prototype
-                              </h6><br>
-                              <p>
-                                Text 
-                              </p>
-                              <br>
-        <br>
-                       <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
-                        <br>
-                              <h6>
-                               usability Testing
+                               Usability Testing
                               </h6><br>
                               <p>
                                 Conducting usability testing in a real-world setting, such as a supermarket, helped to identify how users interact with the app in a natural environment. This information was used to refine the design of the app, ensuring that it meets the needs of users in real-life scenarios. 
@@ -510,17 +553,21 @@
                               </h6><br>
                               <p>
                                 Using the Attrakdiff method helped to evaluate the overall user experience of the app, including its usability, aesthetics, and emotional appeal. This methodology allowed me to identify areas where the app excels and areas for improvement, ensuring that the final product is both visually appealing and effective in encouraging long-term healthy eating habits. 
+                                See the results in my <a href="https://docs.google.com/document/d/1mUVoPpCGsO9plmABnNau5JqEvXcva0iUBgEd1U8KJqI/edit?usp=sharing" style="color:green">Bachelorthesis</a>
                               </p>
                               <br>
         <br>
                        <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
                         <br>
                               <h6>
-                            retro / Conclusion
+                            Conclusion
                               </h6><br>
                               <p>
-                                Text 
+                                To see the final developed App click on the Tab "AR/XR".
                               </p>
+                              All togehter i got an app which had a high positive evaluation. A lot of technices which i have found while secondary research has been done and via the following diagramm you can see that 100% of all high priority features, 83% of all middle priority and at least 33% of low priority where done.
+<br><br>
+                                     <img src="../../assets/img/_/food4me/pp2/diagramm_erfuellungsgrad.png" style="width: 80%;">
                               <br>
                                     <br>
                        <!--     ____      --><br><div style="border-bottom: 1px solid; color: black; width: 100%;"></div><br> 
@@ -1616,7 +1663,7 @@ export default {
           src: require("../../assets/img/_/3D/catia_cad.jpg"),
           thumb: require("../../assets/img/_/3D/catia_cad.jpg"),
           portfolioName: "CAD - Catiav5/Autocad",
-          details: "experiene 3 years as konstrukteur/product designer. including part design, generative shape design, assembly design, technical drawings",
+          details: "experiene 3 years as product designer for Audi. including part design, generative shape design, assembly design, technical drawings.",
         },
 
       ],
